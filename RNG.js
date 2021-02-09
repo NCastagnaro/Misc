@@ -2,7 +2,7 @@
 var maxNumber = 20;
 var counter = 0;
 var maxGuesses = 7;
-/*Math.random selects a random number from 0(inclusive) to 1(exclusive). We scale it up how we want*/
+/*Math.random selects a random number from 0(inclusive) to 1(exclusive). We scale it how we want by multiplying by maxNumber*/
 /*e.g. rng picks .7 and then we add 1. Now the Math.floor function rounds the number down to 1. This allows us to always start at 1.*/
 var randomNumber = Math.floor(Math.random() * maxNumber)+1;
 
@@ -12,7 +12,7 @@ while (Attempt != randomNumber){
     var Attempt = prompt("Please pick a number between 1 and " + maxNumber);
     counter ++;
 
-    /*Ends program if cancel is selected*/
+    /* Ends program if cancel is selected. */
     if(Attempt === null){
         document.write("Thank you for playing. If you wish to try again, press f5")
         break;
