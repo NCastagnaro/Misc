@@ -2,7 +2,7 @@
     function factorial(x){
         let total = 1;
         for(let i = x; i > 0; i--){
-        total *=i; // total = total * x
+        total *=i; // total = total * x;
         }
         return total;
     }
