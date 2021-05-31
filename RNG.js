@@ -1,4 +1,4 @@
-/*Random Number Generator Code*/
+/*Random Number Generator Code*
 var maxNumber = 20;
 var counter = 0;
 var maxGuesses = 7;
