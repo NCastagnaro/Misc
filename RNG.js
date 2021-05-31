@@ -30,7 +30,7 @@ while (Attempt != randomNumber){
         document.write("Congratulations, that is the correct number!");
         document.write("<br>");
         document.write("The correct number was "+ randomNumber+ "."+"<br>");
-        document.write("You guessed " + counter + " times.");10
+        document.write("You guessed " + counter + " times.");
     }
     else if(Attempt < randomNumber){
         alert("Your guess is too low. Please guess again");
