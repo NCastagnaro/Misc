@@ -2,7 +2,7 @@
 var maxNumber = 20;
 var counter = 0;
 var maxGuesses = 7;
-/*Math.random selects a random number from 0(inclusive) to 1(exclusive). We scale it how we want by multiplying by maxNumber/
+/*Math.random selects a random number from 0(inclusive) to 1(exclusive). We scale it how we want by multiplying by maxNumber*/
 /*e.g. rng picks .7 and then we add 1. Now the Math.floor function rounds the number down to 1. This allows us to always start at 1.*/
 var randomNumber = Math.floor(Math.random() * maxNumber)+1;
 
